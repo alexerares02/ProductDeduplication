@@ -62,7 +62,7 @@ for group_indices in groups:
 # rezultatul final
 deduplicated_df = pd.DataFrame(consolidated_rows)
 
-# rezultat final
+
 deduplicated_df.to_csv("veridion_deduplicated_softmatch.csv", index=False)
 
 
@@ -74,4 +74,4 @@ removed_count = initial_count - final_count
 
 print("Raport")
 print(f"Initial:{initial_count} randuri")
-print(f"După grupare: {final_count} randuri")
+print(f"Dupa grupare: {final_count} randuri")
